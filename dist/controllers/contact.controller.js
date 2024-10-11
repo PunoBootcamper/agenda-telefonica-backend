@@ -3,7 +3,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const app_1 = __importDefault(require("./app"));
-app_1.default.listen(4000, () => {
-    console.log("Server is running on port 4000");
-});
+exports.getContacts = void 0;
+const contacts_1 = __importDefault(require("../data/contacts"));
+const getContacts = (req, res) => {
+    res.json(contacts_1.default);
+};
+exports.getContacts = getContacts;
