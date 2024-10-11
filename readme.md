@@ -174,7 +174,7 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 
 ## Autores
 
-- GitHub - [Noelia Garcia](https://github.com/NoeliaGAP)
+- GitHub - [Noelia Garcia Pacara](https://github.com/NoeliaGAP)
 - GitHub - [William Lupaca Ticona](https://github.com/PunoBootcamper)
 
 ## Contacto
