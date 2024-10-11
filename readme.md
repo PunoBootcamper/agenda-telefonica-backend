@@ -1,6 +1,6 @@
 # Phonebook API
 
-Este proyecto es una API RESTful creada con [Express](https://expressjs.com/), que actúa como backend para una agenda telefónica. Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los contactos almacenados.
+Este proyecto es una API RESTful creada con [Express](https://expressjs.com/), que actúa como backend para una agenda telefónica. Permite realizar operaciones CRUD (Crear, Leer y Eliminar) sobre los contactos almacenados.
 
 ## Instalación
 
@@ -148,14 +148,12 @@ POST http://localhost:4000/api/persons
 ## Middlewares utilizados
 
 - **express.json()**: Para analizar solicitudes con datos en formato JSON.
-- **express.urlencoded()**: Para analizar solicitudes con datos de formularios URL-encoded.
 - **morgan**: Para registrar solicitudes HTTP en la consola.
-- **cors**: Para permitir el acceso a recursos desde diferentes dominios.
 
 ## Scripts disponibles
 
 - ``npm start``: Inicia el servidor en modo de producción.
-- ``npm run dev``: Inicia el servidor en modo de desarrollo, reiniciándolo automáticamente con [nodemon](https://nodemon.io/).
+- ``npm run dev``: Inicia el servidor en modo de desarrollo, reiniciándolo automáticamente ante cambios.
 
 ## Dependencias
 
@@ -163,8 +161,6 @@ Este proyecto utiliza las siguientes dependencias:
 
 - [Express](https://www.npmjs.com/package/express): Framework para Node.js.
 - [Morgan](https://www.npmjs.com/package/morgan): Middleware para registrar solicitudes HTTP.
-- [Cors](https://www.npmjs.com/package/cors): Middleware para habilitar CORS (Cross-Origin Resource Sharing).
-- [Nodemon](https://nodemon.io/): Herramienta que reinicia automáticamente el servidor cuando se detectan cambios en los archivos.
 
 ## Contribuciones
 
