@@ -172,6 +172,11 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 4. Envía tus cambios: ``git push origin feature/nueva-feature``.
 5. Abre un Pull Request.
 
+## Autores
+
+- GitHub - [Noelia Garcia](https://github.com/NoeliaGAP)
+- GitHub - [William Lupaca Ticona](https://github.com/PunoBootcamper)
+
 ## Contacto
 
 Para cualquier duda o sugerencia, no dudes en ponerte en contacto con los desarrolladores del proyecto.
